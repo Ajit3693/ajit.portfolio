@@ -99,3 +99,4 @@
 
 </body>
 </html>
+<img src="your-image.jpg" alt="My Portfolio Photo" width="300">
