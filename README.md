@@ -1,102 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ajit Kumar Mahto - Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: #0077cc;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    section {
-      padding: 20px;
-      background: white;
-      margin: 20px;
-      border-radius: 10px;
-    }
-    h2 {
-      border-bottom: 2px solid #0077cc;
-      padding-bottom: 5px;
-    }
-    .contact, .skills, .project, .education {
-      margin-bottom: 20px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    .profile-img {
-      width: 120px;
-      border-radius: 50%;
-      border: 3px solid white;
-      margin-top: 10px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ajit Mahto | Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+padding:80px 20px;
+text-align:center;
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+}
+
+header h1{
+font-size:55px;
+margin-bottom:10px;
+}
+
+header h3{
+color:#38bdf8;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#38bdf8;
+color:white;
+text-decoration:none;
+border-radius:30px;
+margin:10px;
+transition:.3s;
+}
+
+.btn:hover{
+background:#0ea5e9;
+transform:scale(1.05);
+}
+
+section{
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#38bdf8;
+font-size:35px;
+}
+
+.about{
+text-align:center;
+font-size:18px;
+line-height:1.8;
+}
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+text-align:center;
+border-radius:10px;
+transition:.3s;
+}
+
+.skill:hover{
+transform:translateY(-8px);
+background:#2563eb;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.contact{
+text-align:center;
+font-size:18px;
+}
+
+.contact a{
+color:#38bdf8;
+text-decoration:none;
+}
+
+footer{
+background:#1e293b;
+text-align:center;
+padding:25px;
+margin-top:50px;
+}
+
+</style>
+
 </head>
+
 <body>
 
 <header>
-  <h1>Ajit Kumar Mahto</h1>
-  <p>Web Developer | Frontend Engineer</p>
-  <img src="profile.jpg" alt="Ajit Kumar" class="profile-img">
-  <p>📍 Vill-Khutta, Giridih, Jharkhand | 📧 ajitmahto8@gmail.com | 📞 6295171503 / 9304925949</p>
+
+<h1>Ajit Mahto</h1>
+
+<h3>Java Full Stack Developer</h3>
+
+<p>Spring Boot | React | Java | MySQL | HTML | CSS | JavaScript</p>
+
+<br>
+
+<a class="btn" href="https://github.com/Ajit3693" target="_blank">GitHub</a>
+
+<a class="btn" href="#">Download Resume</a>
+
 </header>
 
-<section class="objective">
-  <h2>Objective</h2>
-  <p>Detail-oriented and motivated professional with a strong background in IT industry. Seeking opportunities in Web Development to contribute and grow through learning and dedication.</p>
+<section>
+
+<h2>About Me</h2>
+
+<p class="about">
+
+I am a passionate Java Full Stack Developer with experience in Java, Spring Boot,
+React, MySQL, HTML, CSS and JavaScript. I enjoy building responsive,
+user-friendly and scalable web applications.
+
+</p>
+
 </section>
 
-<section class="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React.js, Angular, Material UI</li>
-    <li><strong>Backend (Learning):</strong> Node.js, MongoDB</li>
-    <li><strong>UI/UX:</strong> Responsive Design, Material Design Basics</li>
-    <li><strong>Tools:</strong> VS Code, GitHub</li>
-  </ul>
+<section>
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Java</div>
+
+<div class="skill">Spring Boot</div>
+
+<div class="skill">React</div>
+
+<div class="skill">MySQL</div>
+
+<div class="skill">HTML5</div>
+
+<div class="skill">CSS3</div>
+
+<div class="skill">JavaScript</div>
+
+<div class="skill">Bootstrap</div>
+
+<div class="skill">Git</div>
+
+<div class="skill">GitHub</div>
+
+</div>
+
 </section>
 
-<section class="experience">
-  <h2>Experience</h2>
-  <ul>
-    <li>💼 <strong>Vision Technology</strong> (Nov 2022 – Oct 2023) – Support Hardware Engineer</li>
-    <li>💼 <strong>Ebixcash Global Pvt Ltd</strong> (Nov 2024 – May 2025) – Software Engineer</li>
-    <li>🔍 Currently looking for a job in the IT field</li>
-  </ul>
+<section>
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+
+<h3>Employee Management System</h3>
+
+<p>
+CRUD application using Java Spring Boot and MySQL.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Student Management System</h3>
+
+<p>
+Full Stack project developed using Spring Boot and React.
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Portfolio Website</h3>
+
+<p>
+Responsive Portfolio Website using HTML, CSS and JavaScript.
+</p>
+
+</div>
+
+</div>
+
 </section>
 
-<section class="project">
-  <h2>Projects</h2>
-  <ul>
-    <li><strong>Portfolio Website</strong> – Built with HTML, CSS, JavaScript</li>
-    <li><strong>Weather Forecast App</strong> – JavaScript + OpenWeather API</li>
-    <li><strong>E-Commerce Website</strong> – Angular/React, Cart, Filter, Checkout</li>
-    <li><strong>Notes App</strong> – Angular/React + Firebase (Login, CRUD, DB)</li>
-  </ul>
+<section>
+
+<h2>Contact</h2>
+
+<div class="contact">
+
+<p><b>Name:</b> Ajit Mahto</p>
+
+<p><b>GitHub:</b><br>
+
+<a href="https://github.com/Ajit3693" target="_blank">
+https://github.com/Ajit3693
+</a>
+
+</p>
+
+<p><b>Email:</b> your-email@example.com</p>
+
+<p><b>Location:</b> Bengaluru, India</p>
+
+</div>
+
 </section>
 
-<section class="education">
-  <h2>Education</h2>
-  <ul>
-    <li>🎓 B.Tech in Electrical Engineering – CSET Kolkata (7.5 DGPA)</li>
-    <li>🎓 Diploma in Electrical Engineering – WBSCTE (73.5%)</li>
-  </ul>
-</section>
+<footer>
 
-<section class="declaration">
-  <h2>Declaration</h2>
-  <p>I hereby declare that the information provided is true to the best of my knowledge.</p>
-</section>
+<h3>© 2026 Ajit Mahto</h3>
+
+<p>Designed with ❤️ by Ajit Mahto</p>
+
+</footer>
+
+<script>
+
+const cards=document.querySelectorAll(".card,.skill");
+
+window.addEventListener("scroll",()=>{
+
+cards.forEach(card=>{
+
+card.style.opacity="1";
+
+});
+
+});
+
+console.log("Portfolio Loaded Successfully");
+
+</script>
 
 </body>
 </html>
-<img src="your-image.jpg" alt="My Portfolio Photo" width="300">
